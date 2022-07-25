@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>My First Page</h1>
+    <p id="add"> </p>
+
+    <script>
+        document.getElementById("add").innerHTML=5+6;
+    </script>
+
+    <h2>My second page</h2>
+    <script>
+        document.write(5+6);
+    </script>
+
+    <h2>My third page</h2>
+    <script>
+        window.alert(5+6);
+    </script>
+
+    <h2>Activate Debugging</h2>
+    <p>F12 on your keyboard will active Debugging</p>
+    <p>Then select "Console" in the Debugger menu.</p>
+    <p>Then click Run again</p>
+    <script>
+        console.log(5+6);
+    
+    </script>
+
+
+
+<body  onload = "getname()">
+<h2>javasscript functions</h2>
+<script language="javascript">
+function getname()
+{
+    var name=prompt("enter your name!")
+    document.write("welcome",name,"!");
+}
+</script>
+<script>
+    document.getelementbyid("my website","var")
+    document.getelementbyid
+    </script>
+</html>
