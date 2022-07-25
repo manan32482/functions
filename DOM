@@ -1,0 +1,20 @@
+<html>    
+<body onload = "getname()">
+<h2>javasscript functions</h2>
+<script language="javascript">
+function getname()
+{
+    var name = prompt("enter your name!")
+    document.write("welcome",name,"!");   
+}
+</script> 
+<h1
+    id="var">
+</h1> 
+<script>
+document.getelementbyid("my website","var")
+document.getelementbyid
+</script>
+
+</body>
+</html>
